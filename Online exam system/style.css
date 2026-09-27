@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px gray;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#startScreen {
+    text-align: center;
+}
+
+#startScreen input {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#examScreen {
+    display: none;
+}
+
+.exam-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#question {
+    margin-bottom: 25px;
+}
+
+.option {
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #ddd;
+}
+
+.option.selected {
+    background-color: #333;
+    color: white;
+}
+
+#nextButton {
+    margin-top: 15px;
+}
+
+#resultScreen {
+    display: none;
+    text-align: center;
+}
+
+#resultMessage {
+    margin: 25px 0;
+}
